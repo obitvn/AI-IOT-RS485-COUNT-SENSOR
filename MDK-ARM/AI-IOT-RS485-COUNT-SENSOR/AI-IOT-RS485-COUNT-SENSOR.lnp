@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"ai-iot-rs485-count-sensor\startup_stm32f103xb.o"
+"ai-iot-rs485-count-sensor\obitstring.o"
+"ai-iot-rs485-count-sensor\main.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_it.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_msp.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_gpio_ex.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_tim.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_tim_ex.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_uart.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_rcc.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_rcc_ex.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_gpio.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_dma.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_cortex.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_pwr.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_flash.o"
+"ai-iot-rs485-count-sensor\stm32f1xx_hal_flash_ex.o"
+"ai-iot-rs485-count-sensor\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "AI-IOT-RS485-COUNT-SENSOR\AI-IOT-RS485-COUNT-SENSOR.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "AI-IOT-RS485-COUNT-SENSOR.map" -o AI-IOT-RS485-COUNT-SENSOR\AI-IOT-RS485-COUNT-SENSOR.axf
